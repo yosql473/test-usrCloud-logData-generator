@@ -1,4 +1,4 @@
-# test-usrCloud-logData-generator  XX云日志模拟器
+# test-usrCloud-logData-generator  
 
 ## 日志产生位置
   默认在 `/tmp/logs` 下，需要该目录存在与权限通常。
