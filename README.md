@@ -5,13 +5,21 @@
   默认在 `/tmp/logs` 下，需要该目录存在与权限通常。
 
 ## 日志格式
+ 
   轮询:  
+    
     INFO  cn.simulator.data.UpDownDataSimulator -下行数据流 - 类型:服务器轮询下发，目标设备:00016907000000000063，data:xxxxxxxxxxx
+    
     INFO  cn.simulator.data.UpDownDataSimulator -上行数据流 - 类型:设备轮询上报，目标设备:00016907000000000063，data:xxxxxxxxxxx
+  
   手动查询数据点:
+    
     INFO  cn.simulator.data.UpDownDataSimulator -下行数据流 - 类型:服务器手动查询，目标设备:00016907000000000069，data:xxxxxxxxxxx
+    
     INFO  cn.simulator.data.UpDownDataSimulator -上行数据流 - 类型:设备单独上报，目标设备:00016907000000000069，data:xxxxxxxxxxx
+  
   设备主动上报:
+    
     INFO  cn.simulator.data.UpDownDataSimulator -上行数据流 - 类型:设备主动上报，目标设备:00016907000000000066，data:xxxxxxxxxxx
 
 ## 快速开始
